@@ -7,7 +7,7 @@ export default function Open(){
   className="w-full md:w-150 h-100 md:ml-30 mt-10 md:mt-50"
   src="https://www.youtube.com/embed/F3zw1Gvn4Mk"
 ></iframe>
-<div className="h-130 md:h-110 md:w-120 w-150 md:mt-20 dark:text-black bg-white shadow-2xl md:absolute right-20">
+<div className="h-130 md:h-110 md:w-120 w-150 md:mt-20 dark:text-black  bg-white shadow-2xl md:absolute right-20">
 <p className="text-3xl mt-20 ml-10">Opening Hours</p>
 <p className="text-[12px] mt-5 text-gray-500 ml-10">A relaxing and pleasant atmosphere, 
     good jazz, dinner, and cocktails. The<br/> Patio Time Bar opens in the center..</p>

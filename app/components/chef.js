@@ -1,6 +1,9 @@
+"use client";
 
+export default function Open(){
+    return(
 
-<section className="bg-gray-200  dark:bg-zinc-800 w-full text-center py-20">
+<section className="bg-gray-200  dark:bg-zinc-800 w-full text-center py-10 mt-10">
           <div className="text-[#a47c3c] dark:text-white font-serif text-sm md:text-lg"> MASTER CHEFS </div>
           <div className="text-2xl md:text-4xl font-serif text-black dark:text-white"> Meet Our Special Chefs </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16 py-10">
@@ -30,3 +33,5 @@
             </div>
           </div>
         </section>
+    )
+  }

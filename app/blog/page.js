@@ -1,47 +1,27 @@
 "use client";
 import Link from "next/link";
 import Footer from "../components/footer";
+import Header from "../components/header";
 export default function BlogPage() {
   return (
     <div className="bg-gray-100 dark:bg-zinc-950 w-full h-full">
       <div className="bg-black text-white  ">
-        <div className="bg-[#c7a268] text-sm flex flex-col md:flex-row  md:justify-between items-center
-         px-4 md:px-8 py-2 space-y-1 md:space-y-0"  >
-          <div className="text-center md:text-left">
-            Phone: <span className="font-medium">+12345678</span> |{" "}
-            <span className="font-medium">Email : food@restan.com</span>
-          </div>
-          <div>English</div>
-        </div>
-        <header
-          className="flex justify-between items-center px-10 py-4
-       bg-black border-b border-gray-800"  >
-          <h1 className="w-20">
-            <img src={"https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-light.png&w=750&q=75"  }  />
-          </h1>
-          <nav className="space-x-20 hidden md:block">
-            <Link href="/" className="hover:text-amber-400">  Home </Link>
-            <Link href="/about" className="hover:text-amber-400">  Pages </Link>
-            <Link href="/blog" className="hover:text-amber-400">   Blog  </Link>
-            <Link href="/contact" className="hover:text-amber-400"> Contact  </Link>
-          </nav>
-          <button className="border hover:text-amber-400 px-4 py-2  rounded "> Reservation </button>
-        </header>
+        <Header/>
         <div className="w-full h-100 flex flex-col justify-center items-center bg-black">
           <img src="https://th.bing.com/th/id/OIP.EC2cs4VWiaF3yc15Hg7URAHaEv?w=287&h=183&c=7&r=0&o=7&pid=1.7&rm=3"
             className=" opacity-50 w-[800px] h-100 "   />
-          <h2 className="text-3xl font-semibold font-sans absolute position top-[240px] font-serif ">
+          <h2 className="md:text-6xl text-3xl  font-serif absolute position top-[240px] ">
             Blog Standard </h2>
           <div className=" mt-3 text-gray-300 absolute position top-[300px]">
-            <Link href="/" className="hover:text-amber-400">  Home </Link>
+            <Link href="/" className="hover:text-amber-400">  Home | {""}</Link>
             Blog
           </div>
         </div>
       </div>
       <section>
-        <div className="bg-white dark:bg-zinc-800 md:w-[700px] md:h-[700px] md:ml-55 md:mt-30 mt-15">
+        <div className="bg-white dark:bg-zinc-800 md:w-[800px] md:h-[700px] md:ml-45 md:mt-30 mt-15">
           <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F1-full.jpg&w=1920&q=75"
-            className="md:w-[700px] md:h-[400px]" />
+            className="md:w-[800px] md:h-[400px]" />
           <div className="p-8">
             <div className="text-gray-600 dark:text-white text-sm flex gap-5 items-center mb-2">
               <button className="hover:text-[#8b6932]">12 August, 2024</button>
@@ -62,10 +42,10 @@ export default function BlogPage() {
         </div>
       </section>
       <section>
-        <div className="bg-white dark:bg-zinc-800 md:w-[700px] md:h-[700px] md:ml-55 md:mt-30 mt-15">
+        <div className="bg-white dark:bg-zinc-800 md:w-[800px] md:h-[700px] md:ml-45 md:mt-30 mt-15">
           <img
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F2-full.jpg&w=1920&q=75"
-            className="md:w-[700px] md:h-[400px]"
+            className="md:w-[800px] md:h-[400px]"
           />
           <div className="p-8">
             <div className="text-gray-600  dark:text-white text-sm flex gap-5 items-center mb-2">
@@ -85,9 +65,9 @@ export default function BlogPage() {
         </div>
       </section>
       <section>
-        <div className="bg-white dark:bg-zinc-800 md:w-[700px] md:h-[700px] md:ml-55  md:mt-30 mt-15">
+        <div className="bg-white dark:bg-zinc-800 md:w-[800px] md:h-[700px] md:ml-45  md:mt-30 mt-15">
           <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F3-full.jpg&w=1920&q=75"
-            className="md:w-[700px] md:h-[400px]" />
+            className="md:w-[800px] md:h-[400px]" />
           <div className="p-8">
             <div className="text-gray-600  dark:text-white text-sm flex gap-5 items-center mb-2">
               <button className="hover:text-[#8b6932]">14 August, 2024</button>

@@ -36,8 +36,8 @@ src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Flogo-lig
 </div>
 
 <p className="absolute inset-0 text-4xl md:text-7xl 
- md:ml-120 ml-13  md:mt-90 mt-35
- text-white opacity-100 font-serif
+ md:mt-90 mt-35
+ text-white opacity-100 font-serif text-center
 ">Best Restaurant</p>
 </div>
 <div className=" absolute inset-0 p-10 justify-center h-40 w-40 rounded-full text-white 

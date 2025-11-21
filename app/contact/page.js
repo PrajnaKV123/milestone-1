@@ -28,40 +28,40 @@ export default function Contact() {
       </div>
       {/*next section*/}
       <div className="flex flex-wrap mt-30">
-        <div className="dark:bg-white h-70  w-full md:w-70 border-1 md:ml-25 rounded-2xl">
+        <div className="dark:bg-white h-50 md:h-60 w-full md:w-60 border-1 md:ml-25 rounded-2xl">
           <img
-            className="ml-33 md:ml-25 mt-3 h-25 w-25"
+            className="ml-33 md:ml-19 mt-3 h-20 w-20"
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fphone.png&w=640&q=75"
           />
-          <p className="dark:text-black ml-34 md:ml-25 mt-6 text-2xl text-bold">
+          <p className="dark:text-black ml-34 md:ml-20 mt-6 text-xl text-bold">
             Hotline
           </p>
-          <p className="dark:text-black ml-30 md:ml-22 mt-2">+4733378901</p>
+          <p className="dark:text-black md:text-[13px] ml-30 md:ml-19 mt-2">+4733378901</p>
         </div>
 
-        <div className="dark:bg-white h-70 w-full md:w-70 border-1 md:ml-25 mt-10 md:mt-0 rounded-2xl">
+        <div className="dark:bg-white h-50 md:h-60 w-full md:w-60 border-1 md:ml-25 mt-10 md:mt-0 rounded-2xl">
           <img
-            className="ml-33 md:ml-22 mt-3 h-25 w-25"
+            className="ml-33 md:ml-18 mt-3 h-20 w-20"
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fplaceholder.png&w=640&q=75"
           />
-          <p className="dark:text-black ml-30 md:ml-20 mt-6 text-2xl text-bold">
+          <p className="dark:text-black ml-30 md:ml-14 mt-6 text-xl text-bold">
             Our Location
           </p>
-          <p className="dark:text-black ml-7 md:ml-5 mt-2">
-            55 Main Street, The Grand Avenue 2nd Block,
-            <br /> New York City
+          <p className="dark:text-black ml-7 md:text-[12px] md:ml-5 mt-2">
+            55 Main Street, The Grand Avenue 2nd  <br />Block,
+            New York City
           </p>
         </div>
 
-        <div className="dark:bg-white h-70 w-full md:w-70 border-1 md:ml-25 mt-10 md:mt-0 rounded-2xl">
+        <div className="dark:bg-white h-50 md:h-60 w-full md:w-60 border-1 md:ml-25 mt-10 md:mt-0 rounded-2xl">
           <img
-            className="ml-33 md:ml-22 mt-3 h-25 w-25"
+            className="ml-33 md:ml-20 mt-3 h-20 w-20"
             src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Femail.png&w=640&q=75"
           />
-          <p className="dark:text-black ml-28 md:ml-17 mt-6 text-2xl text-bold">
+          <p className="dark:text-black ml-28 md:ml-17 mt-6 text-xl text-bold">
             Official Email
           </p>
-          <p className="dark:text-black ml-30 md:ml-20 mt-2 text-bold">
+          <p className="dark:text-black ml-30 md:ml-20 text-[13px] mt-2 text-bold">
             info@restan.com
           </p>
         </div>
@@ -75,29 +75,29 @@ export default function Contact() {
           Send us a Message
         </h1>
         <input
-          className="bg-gray-200 dark:text-black pl-3 md:ml-20 ml-5 w-80 h-10 mt-8 md:w-150"
+          className="bg-gray-200 dark:text-black pl-3 md:ml-20 ml-5 w-70 h-10 mt-8 md:w-150"
           placeholder="Name"
           type="Name"
         />
         <div className="flex flex-wrap">
           <input
-            className="bg-gray-200 dark:text-black pl-3 md:ml-20 ml-5 w-80 h-10 mt-8 md:w-70"
+            className="bg-gray-200 dark:text-black pl-3 md:ml-20 ml-5 w-70 h-10 mt-8 md:w-70"
             placeholder="Email"
             type="email"
           />
           <input
-            className="bg-gray-200 dark:text-black pl-3 md:ml-20  ml-5 w-80 h-10 mt-8 md:w-70"
+            className="bg-gray-200 dark:text-black pl-3 md:ml-20  ml-5 w-70 h-10 mt-8 md:w-70"
             placeholder="Phone"
             type="Phone"
           />
         </div>
         <input
-          className="bg-gray-200 dark:text-black pl-3 md:ml-20 ml-5 w-80 h-30 mt-8 md:w-150 "
+          className="bg-gray-200 dark:text-black pl-3 md:ml-20 ml-5 w-70 h-30 mt-8 md:w-150 "
           placeholder="Your Message"
           type="msg"
         />
         <div>
-          <button className="ml-20 mt-10 h-15 w-50 rounded-2xl bg-amber-500">
+          <button className="md:ml-20 ml-15  mt-10 h-15 w-50 rounded-2xl bg-amber-500">
             Get in Touch
           </button>
         </div>

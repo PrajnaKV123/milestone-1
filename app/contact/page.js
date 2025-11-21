@@ -11,7 +11,7 @@ export default function Contact(){
           <div>
       <img className="w-full h-70 md:h-100 opacity-85" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS70qOalgPKlLRqby8tBn_FDoukfqSjmUO_kg&s"/>
       <p className="absolute inset-0 ml-25 md:ml-150 mt-50 md:mt-60 text-4xl md:text-6xl font-serif text-white">Contact Us</p>
-      <Link href="/"className="absolute inset-0 text-white ml-30 md:ml-170 mt-60 md:mt-78 ">Home</Link>
+      <Link href="/"className="absolute inset-0 text-white hover:text-amber-400 ml-30 md:ml-170 mt-60 md:mt-78">Home</Link>
       <p className="absolute inset-0 text-white ml-45 md:ml-185 mt-60 md:mt-78">Contact Us</p>
     </div>
           

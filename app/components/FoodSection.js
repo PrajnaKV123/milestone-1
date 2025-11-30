@@ -1,4 +1,4 @@
-// /components/FoodSection.jsx
+
 export default function FoodSection() {
   const foodItems = [
     {

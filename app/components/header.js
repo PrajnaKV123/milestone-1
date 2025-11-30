@@ -12,7 +12,7 @@ export default function Header(){
             Phone: <span className="font-medium">+12345678</span> |{" "}
             <span className="font-medium">Email : food@restan.com</span>
           </div>
-          <div>English</div>
+          <div >English</div>
         </div>
           <header
           className="flex justify-between items-center px-10 py-4

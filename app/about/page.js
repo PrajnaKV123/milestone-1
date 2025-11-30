@@ -31,7 +31,7 @@ export default function AboutPage() {
               {" "}
               OUR TRUSTED 8K HAPPY PARTNER{" "}
             </h3>
-            <div className="w-20 h-[3px] bg-[#a47c3c] mx-auto"></div>
+            <div className="w-20 h-[3px] bg-[#a47c3c] mx-130"></div>
           </div>
           <div className="flex flex-wrap  justify-center gap-6 absolute position top-150">
             <img

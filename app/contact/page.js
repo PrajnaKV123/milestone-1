@@ -4,6 +4,8 @@ import Map from "../components/map";
 import Open from "../components/open";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import ContactCard from "../components/ContactCard";
+
 export default function Contact() {
   return (
     <div>
@@ -27,45 +29,28 @@ export default function Contact() {
         </div>
       </div>
       {/*next section*/}
-      <div className="flex flex-wrap mt-30">
-        <div className="dark:bg-white h-50 md:h-60 w-full md:w-60 border-1 md:ml-25 rounded-2xl">
-          <img
-            className="ml-33 md:ml-19 mt-3 h-20 w-20"
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fphone.png&w=640&q=75"
-          />
-          <p className="dark:text-black ml-34 md:ml-20 mt-6 text-xl text-bold">
-            Hotline
-          </p>
-          <p className="dark:text-black md:text-[13px] ml-30 md:ml-19 mt-2">+4733378901</p>
-        </div>
+       <div className="flex flex-wrap mt-30 gap-y-10 md:gap-y-0">
+      
+      <ContactCard
+        icon="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fphone.png&w=640&q=75"
+        title="Hotline"
+        content="+4733378901"
+      />
 
-        <div className="dark:bg-white h-50 md:h-60 w-full md:w-60 border-1 md:ml-25 mt-10 md:mt-0 rounded-2xl">
-          <img
-            className="ml-33 md:ml-18 mt-3 h-20 w-20"
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fplaceholder.png&w=640&q=75"
-          />
-          <p className="dark:text-black ml-30 md:ml-14 mt-6 text-xl text-bold">
-            Our Location
-          </p>
-          <p className="dark:text-black ml-7 md:text-[12px] md:ml-5 mt-2">
-            55 Main Street, The Grand Avenue 2nd  <br />Block,
-            New York City
-          </p>
-        </div>
+      <ContactCard
+        icon="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Fplaceholder.png&w=640&q=75"
+        title="Our Location"
+        content="55 Main Street, The Grand Avenue 2nd Block, New York City"
+      />
 
-        <div className="dark:bg-white h-50 md:h-60 w-full md:w-60 border-1 md:ml-25 mt-10 md:mt-0 rounded-2xl">
-          <img
-            className="ml-33 md:ml-20 mt-3 h-20 w-20"
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Femail.png&w=640&q=75"
-          />
-          <p className="dark:text-black ml-28 md:ml-17 mt-6 text-xl text-bold">
-            Official Email
-          </p>
-          <p className="dark:text-black ml-30 md:ml-20 text-[13px] mt-2 text-bold">
-            info@restan.com
-          </p>
-        </div>
-      </div>
+      <ContactCard
+        icon="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Ficon%2Femail.png&w=640&q=75"
+        title="Official Email"
+        content="info@restan.com"
+      />
+      
+    </div>
+
       {/*next section*/}
       <div className=" dark:bg-white h-160 md:h-150 md:w-200 shadow-2xl md:ml-40 md:mt-30 mt-10">
         <p className="text-center pt-10 text-lg text-amber-300">

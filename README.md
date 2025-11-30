@@ -68,7 +68,7 @@ Global stylesheet for the project.
 ## 🧪 Tech Stack  
 - Next.js (App Router)  
 - React  
-- Tailwind CSS  
+- Tailwind CSS
 - Vercel (Deployment)  
 
 ---

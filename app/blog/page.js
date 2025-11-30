@@ -2,88 +2,55 @@
 import Link from "next/link";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import Blogcard from "../components/Blogcard";
+
 export default function BlogPage() {
   return (
     <div className="bg-gray-100 dark:bg-zinc-950 w-full h-full">
-        <Header/>
+      <div className="bg-black text-white">
+        <Header />
         <div className="w-full h-100 flex flex-col justify-center items-center bg-black">
-          <img src="https://th.bing.com/th/id/OIP.EC2cs4VWiaF3yc15Hg7URAHaEv?w=287&h=183&c=7&r=0&o=7&pid=1.7&rm=3"
-            className=" opacity-50 w-full h-100 "   />
-          <h2 className="md:text-6xl text-4xl font-serif text-white absolute position top-[240px] font-serif ">
-            Blog Standard </h2>
-          <div className=" mt-3 text-gray-300 absolute position top-[300px]">
-            <Link href="/" className="hover:text-amber-400">  Home </Link>
+          <img
+            src="https://th.bing.com/th/id/OIP.EC2cs4VWiaF3yc15Hg7URAHaEv?w=287&h=183&c=7&r=0&o=7&pid=1.7&rm=3"
+            className="opacity-50 w-[800px] h-100"
+          />
+          <h2 className="md:text-6xl text-3xl font-serif absolute top-[240px]">
+            Blog Standard
+          </h2>
+          <div className="mt-3 text-gray-300 absolute top-[300px]">
+            <Link href="/" className="hover:text-amber-400">
+              Home |
+            </Link>{" "}
             Blog
           </div>
         </div>
-      
-      <section>
-        <div className="bg-white dark:bg-zinc-800 md:w-[800px] md:h-[700px] md:ml-90 md:mt-30 mt-15">
-          <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F1-full.jpg&w=1920&q=75"
-            className="md:w-[800px] md:h-[400px]" />
-          <div className="p-8">
-            <div className="text-gray-600 dark:text-white text-sm flex gap-5 items-center mb-2">
-              <button className="hover:text-[#8b6932]">12 August, 2024</button>
-              <button className="hover:text-[#8b6932]"> Admin</button>
-            </div>
-            <h2 className="text-3xl font-serif font-semibold mb-4 text-black  dark:text-white">
-              Picked up a Brussels burger Sprouts. </h2>
-            <p className="text-gray-600  dark:text-white text-[13px] mb-6">
-              Indulgence diminution so discovered mr apartments. Are off under
-              folly death wrote cause her way spite. Plan upon yet way get cold
-              spot its week. Almost do am or limits hearts. Resolve parties but
-              why she shewing. She sang know now.  </p>
-            <button  className="bg-[#a07c42] text-white px-6 py-2 rounded-xl
-           hover:bg-[#8b6932] transition" >
-              Read More
-            </button>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="bg-white dark:bg-zinc-800 md:w-[800px] md:h-[700px] md:ml-90 md:mt-30 mt-15">
-          <img
-            src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F2-full.jpg&w=1920&q=75"
-            className="md:w-[800px] md:h-[400px]"
-          />
-          <div className="p-8">
-            <div className="text-gray-600  dark:text-white text-sm flex gap-5 items-center mb-2">
-              <button className="hover:text-[#8b6932]">13 August, 2024</button>
-              <button className="hover:text-[#8b6932]"> Admin</button>
-            </div>
-            <h2 className="text-3xl font-serif font-semibold mb-4  dark:text-white text-black">
-              This prefabricated passive house highly </h2>
-            <p className="text-gray-600  dark:text-white text-[13px] mb-6">
-              Bndulgence diminution so discovered mr apartments. Are off under
-              folly death wrote cause her way spite. Plan upon yet way get cold
-              spot its week. Almost do am or limits hearts. Resolve parties but
-              why she shewing. She sang know now</p>
-            <button className="bg-[#a07c42] text-white px-6 py-2 rounded-xl
-           hover:bg-[#8b6932] transition"  > Read More</button>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="bg-white dark:bg-zinc-800 md:w-[800px] md:h-[700px] md:ml-90 md:mt-30 mt-15">
-          <img src="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F3-full.jpg&w=1920&q=75"
-            className="md:w-[800px] md:h-[400px]" />
-          <div className="p-8">
-            <div className="text-gray-600  dark:text-white text-sm flex gap-5 items-center mb-2">
-              <button className="hover:text-[#8b6932]">14 August, 2024</button>
-              <button className="hover:text-[#8b6932]"> John Baus</button>
-            </div>
-            <h2 className="text-3xl font-serif font-semibold mb-4  dark:text-white text-black">
-              Overcame breeding point concerns has. </h2>
-            <p className="text-gray-600  dark:text-white text-[13px] mb-6">
-              Bndulgence diminution so discovered mr apartments. Are off under
-              folly death wrote cause her way spite. Plan upon yet way get cold
-              spot its week. Almost do am or limits hearts. Resolve parties but
-              why she shewing. She sang know now </p>
-            <button className="bg-[#a07c42] text-white px-6 py-2 rounded-xl hover:bg-[#8b6932] transition" > Read More </button>
-          </div>
-        </div>
-      </section> 
-       <Footer/>
+      </div>
+
+      <Blogcard
+        image="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F1-full.jpg&w=1920&q=75"
+        date="12 August, 2024"
+        author="Admin"
+        title="Picked up a Brussels burger Sprouts."
+        description="Indulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite..."
+      />
+
+      <Blogcard
+        image="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F2-full.jpg&w=1920&q=75"
+        date="13 August, 2024"
+        author="Admin"
+        title="This prefabricated passive house highly"
+        description="Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now..."
+      />
+
+      <Blogcard
+        image="https://restan-nextjs.vercel.app/_next/image?url=%2Fassets%2Fimg%2Fblog%2F3-full.jpg&w=1920&q=75"
+        date="14 August, 2024"
+        author="John Baus"
+        title="Overcame breeding point concerns has."
+        description="Plan upon yet way get cold spot its week. Resolve parties but why she shewing..."
+      />
+
+      <Footer />
     </div>
   );
 }
